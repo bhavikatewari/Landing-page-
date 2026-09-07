@@ -1,167 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Explore Uttarakhand</title>
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandly — Landing Page</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">ExploreUK</div>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Brandly</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#places">Places</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Build Something People Love</h1>
+    <p>Brandly helps you launch faster with tools built for modern teams.</p>
+    <button class="cta-btn">Get Started</button>
+  </section>
 
+  <!-- FEATURES -->
+  <section id="features" class="section features">
+    <h2>Features</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Fast Setup</h3>
+        <p>Get up and running in minutes, not days.</p>
+      </div>
+      <div class="card">
+        <h3>Reliable</h3>
+        <p>Built on infrastructure you can trust.</p>
+      </div>
+      <div class="card">
+        <h3>Affordable</h3>
+        <p>Plans that scale with your budget.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <h2>About Us</h2>
+    <p>We're a small team obsessed with making great products simple to use. Our mission is to remove friction from your workflow so you can focus on what matters.</p>
+  </section>
 
-        <div class="hero-content">
-            <p class="small-heading">WELCOME TO</p>
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section testimonials">
+    <h2>What People Say</h2>
+    <div class="cards">
+      <div class="card">
+        <p>"Brandly completely changed how our team works."</p>
+        <span>— Alex R.</span>
+      </div>
+      <div class="card">
+        <p>"Simple, fast, and exactly what we needed."</p>
+        <span>— Jamie T.</span>
+      </div>
+    </div>
+  </section>
 
-            <h1>Explore the Beauty of Uttarakhand</h1>
-
-            <p>
-                Discover peaceful mountains, beautiful lakes,
-                amazing valleys and unforgettable experiences.
-            </p>
-
-            <a href="#places" class="cta-button">Explore Places</a>
-        </div>
-
-    </section>
-
-
-    <!-- Places Section -->
-    <section id="places" class="places-section">
-
-        <h2>Popular Places</h2>
-
-        <p class="section-description">
-            Explore some of the most beautiful destinations of Uttarakhand.
-        </p>
-
-        <div class="place-container">
-
-            <div class="place-card">
-                <div class="place-icon">🏔️</div>
-                <h3>Nainital</h3>
-                <p>
-                    Enjoy the beautiful Naini Lake, peaceful hills
-                    and pleasant weather.
-                </p>
-            </div>
-
-
-            <div class="place-card">
-                <div class="place-icon">🌲</div>
-                <h3>Mussoorie</h3>
-                <p>
-                    Experience scenic mountain views and the charm
-                    of the Queen of Hills.
-                </p>
-            </div>
-
-
-            <div class="place-card">
-                <div class="place-icon">🏞️</div>
-                <h3>Rishikesh</h3>
-                <p>
-                    Discover riverside beauty, adventure activities
-                    and peaceful surroundings.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- About Section -->
-    <section id="about" class="about-section">
-
-        <div class="about-content">
-
-            <div class="about-text">
-                <p class="small-heading">ABOUT US</p>
-
-                <h2>Discover Something Beautiful</h2>
-
-                <p>
-                    Uttarakhand is a wonderful destination for people
-                    who love nature, mountains and peaceful surroundings.
-                    From beautiful hill stations to scenic valleys,
-                    there is something for everyone.
-                </p>
-
-                <p>
-                    Plan your next journey and create memories
-                    surrounded by the beauty of the Himalayas.
-                </p>
-            </div>
-
-            <div class="about-box">
-                <span>🌄</span>
-                <h3>Nature • Adventure • Peace</h3>
-                <p>One destination, countless experiences.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-
-        <h2>Plan Your Journey</h2>
-
-        <p>
-            Have questions? Get in touch with us.
-        </p>
-
-        <a href="mailto:example@email.com" class="contact-button">
-            Contact Us
-        </a>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <div class="footer-content">
-
-            <h3>ExploreUK</h3>
-
-            <p>Discover. Explore. Experience.</p>
-
-            <div class="social-links">
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">GitHub</a>
-            </div>
-
-            <p class="copyright">
-                © 2026 ExploreUK. All Rights Reserved.
-            </p>
-
-        </div>
-
-    </footer>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 Brandly. All rights reserved.</p>
+    <div class="socials">
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
 
 </body>
 </html>
